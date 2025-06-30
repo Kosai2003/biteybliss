@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cart - Bite y Bliss</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="icon" type="image/png" href="../Images/favicon.png" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <h1 class="logo">
+      <img src="../Images/favicon.png" alt="Bite y Bliss Logo" class="logo-icon" />
+      <span class="logo-text">Bite <span class="highlight">y</span> Bliss</span>
+    </h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="cart.html" class="cart-link">
+        🛒 Cart <span id="cartCount" class="cart-badge">0</span>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Cart Section -->
+  <main class="container cart-page">
+    <h2>Your Shopping Cart</h2>
+
+    <div class="cart-items" id="cartItems">
+      <!-- JavaScript will insert cart items here -->
+      <p>Your cart is currently empty.</p>
+    </div>
+
+    <div class="cart-summary">
+      <p><strong>Total:</strong> <span id="cartTotal">$0.00</span></p>
+      <div class="checkout-container">
+        <a href="checkout.html" class="btn-checkout-cart">Proceed to Checkout</a>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>🍴 Bite <span class="highlight">y</span> Bliss</h3>
+        <p>Where every bite brings bliss. Fresh, flavorful, unforgettable.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email: hello@biteybliss.com</p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Bite y Bliss. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="../JS/cart.js"></script>
+</body>
+
+</html>
